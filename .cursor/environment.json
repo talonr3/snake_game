@@ -1,3 +1,11 @@
 {
-  "install": "npm install -g pnpm@8"
+  "snapshot": "snapshot-20260205-eae3e53a-1302-4569-b290-684891af66d1",
+  "install": "npm install -g pnpm@8",
+  "start": "echo hello0205",
+  "terminals": [
+    {
+      "name": "welcome",
+      "command": "echo welcome0205"
+    }
+  ]
 }
