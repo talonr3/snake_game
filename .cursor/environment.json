@@ -6,6 +6,10 @@
     {
       "name": "welcome",
       "command": "echo welcome0205"
+    },
+    {
+      "name": "running",
+      "command": "python3 -m http.server 19999"
     }
   ]
 }
