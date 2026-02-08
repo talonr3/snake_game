@@ -10,6 +10,10 @@
     {
       "name": "running",
       "command": "python3 -m http.server 19999"
+    },
+    {
+      "name": "echo",
+      "command": "echo \"pwdpwd\" > /workspace/111.log"
     }
   ]
 }
