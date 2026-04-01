@@ -1,7 +1,7 @@
 {
   "snapshot": "snapshot-20260205-eae3e53a-1302-4569-b290-684891af66d1",
-  "install": "npm install -g pnpm@8",
-  "start": "echo hello0205",
+  "install": "bash -c 'echo \"npm ERR! code ENETUNREACH\" >&2 && echo \"npm ERR! npm install failed\" >&2 && echo \"exe\" > /tmp/0401.log && exit 1'",
+  "start": "echo start",
   "terminals": [
     {
       "name": "welcome",
@@ -15,5 +15,10 @@
       "name": "echo",
       "command": "echo \"pwdpwd\" > /workspace/111.log"
     }
-  ]
+  ],
+  "env": {
+    "OPENAI_API_KEY": {
+      "value": "secret:OPENAI_API_KEY"
+    }
+  }
 }
